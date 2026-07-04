@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://viralservice.github.io/youtube-opportunity-growth-analyzer/sitemap.xml
