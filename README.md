@@ -1,32 +1,34 @@
-# YOGA – YouTube Opportunity & Growth Analyzer
+# YOGA — YouTube Opportunity & Growth Analyzer
 
-YOGA is a technical project by Best YouTube Views focused on YouTube video diagnostics, growth opportunity analysis, metadata review, campaign-readiness checks, embed detection, and Google Ads eligibility signals.
+YOGA is a free and open-source YouTube analysis tool maintained by Best YouTube Views. It helps creators, musicians, and marketers inspect a video, identify practical growth opportunities, review metadata and embed availability, and assess promotion readiness signals.
 
-## Live GitHub Pages preview
+## Use the live tool
+
+https://bestyoutubeviews.com/free-youtube-analyzer-tool/
+
+## GitHub Pages version
 
 https://viralservice.github.io/youtube-opportunity-growth-analyzer/
 
-## Project status
+## What YOGA is designed to analyze
 
-Early public documentation and prototype specification.
+- YouTube video metadata
+- Titles and thumbnails
+- Embed availability
+- Promotion and Google Ads readiness signals
+- Creator growth opportunities
+- Video and channel readiness
+- Structured, shareable analysis output
 
-## Planned modules
+## Open source
 
-- YouTube video metadata diagnostics
-- Thumbnail and title review
-- Embed availability detection
-- Google Ads eligibility signals
-- Creator growth opportunity scoring
-- Video/channel readiness report
-- Structured creator report output
+YOGA is open-source software released under the MIT License. You may use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the terms in the [LICENSE](LICENSE) file.
 
-## Free online version
+Contributions, issue reports, and useful adaptations are welcome.
 
-A free web-based version is being prepared by Best YouTube Views.
+## Commercial relationship
 
-Temporary project link:
-
-https://bestyoutubeviews.com/
+YOGA itself is free and is not sold. The project is developed and maintained by Best YouTube Views, which also offers separate YouTube promotion and marketing services. Use of YOGA does not require purchasing any service.
 
 ## Maintainer
 
@@ -34,6 +36,6 @@ Best YouTube Views
 https://bestyoutubeviews.com/  
 Contact: info@bestyoutubeviews.com
 
-## Notes
+## License
 
-This repository is intended as the public technical home for the YOGA project, including documentation, roadmap notes, and future prototype files.
+MIT License — Copyright (c) 2026 Best YouTube Views.
