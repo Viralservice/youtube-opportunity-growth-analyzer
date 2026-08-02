@@ -1,34 +1,53 @@
 # YOGA — YouTube Opportunity & Growth Analyzer
 
-YOGA is a free and open-source YouTube analysis tool maintained by Best YouTube Views. It helps creators, musicians, and marketers inspect a video, identify practical growth opportunities, review metadata and embed availability, and assess promotion readiness signals.
+YOGA is a free and open-source WordPress plugin maintained by Best YouTube Views. It analyzes public YouTube videos and channels, highlights practical growth opportunities, checks public promotion-readiness signals, and produces a structured report.
 
-## Use the live tool
+## Source code
+
+The complete WordPress plugin source for version 0.1.2 is available in [`yoga-analyzer/`](yoga-analyzer/):
+
+```text
+yoga-analyzer/
+├── yoga-analyzer.php
+├── readme.txt
+├── includes/
+│   └── class-yoga-analyzer.php
+└── assets/
+    ├── css/yoga.css
+    └── js/yoga.js
+```
+
+The source does not contain production credentials. A YouTube Data API v3 key is supplied by each site administrator through the YOGA settings page or as `YOGA_YOUTUBE_API_KEY` in `wp-config.php`.
+
+## Installation
+
+1. Download `yoga-analyzer-0.1.2.zip` from this repository.
+2. In WordPress, open **Plugins → Add New → Upload Plugin**.
+3. Upload the ZIP and activate **YOGA — YouTube Opportunity & Growth Analyzer**.
+4. Open **Settings → YOGA Analyzer** and add a YouTube Data API v3 key.
+5. Add the shortcode `[yoga_analyzer]` to a page.
+
+## Live tool
 
 https://bestyoutubeviews.com/free-youtube-analyzer-tool/
 
-## GitHub Pages version
+## GitHub Pages overview
 
 https://viralservice.github.io/youtube-opportunity-growth-analyzer/
 
-## What YOGA is designed to analyze
+## Features
 
-- YouTube video metadata
-- Titles and thumbnails
-- Embed availability
+- Public YouTube video and channel metadata analysis
+- Title, thumbnail, engagement, embed and restriction checks
 - Promotion and Google Ads readiness signals
-- Creator growth opportunities
-- Video and channel readiness
-- Structured, shareable analysis output
+- Growth opportunity scoring and prioritized action plan
+- Email unlock and private report links
+- JSON and CSV export
+- Configurable rate limiting and API response caching
 
-## Open source
+## Data and privacy
 
-YOGA is open-source software released under the MIT License. You may use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, subject to the terms in the [LICENSE](LICENSE) file.
-
-Contributions, issue reports, and useful adaptations are welcome.
-
-## Commercial relationship
-
-YOGA itself is free and is not sold. The project is developed and maintained by Best YouTube Views, which also offers separate YouTube promotion and marketing services. Use of YOGA does not require purchasing any service.
+YOGA communicates server-side with the YouTube Data API. It can store analysis reports, email addresses submitted to unlock reports, optional marketing consent, and a hashed IP value used for rate limiting. Site operators are responsible for configuring their privacy disclosures and retention practices.
 
 ## Maintainer
 
@@ -38,4 +57,4 @@ Contact: info@bestyoutubeviews.com
 
 ## License
 
-MIT License — Copyright (c) 2026 Best YouTube Views.
+MIT License — Copyright (c) 2026 Best YouTube Views. See [`LICENSE`](LICENSE).
